@@ -1,0 +1,50 @@
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--<ion-header> 
+
+  <ion-navbar color="othercolor">
+    <ion-title><i class="fa fa-sign-in" aria-hidden="true"></i> login</ion-title>
+  </ion-navbar>
+
+</ion-header>-->
+
+<style>
+  ion-content{
+    background: url('images/material_backround_3.jpg') center / cover;
+}
+</style>
+<ion-content padding>
+
+<div text-center style="margin-top:20px;">
+  <img class="loginImg" src="images/climb_logo1.png" style="border-radius:1000px; background:#ebedef; border:2px solid #851d29; heigth:50px;"/>
+  <h1 style="color:#ebedef">Climblogger</h1>
+</div>
+
+  <ion-list>
+      <ion-label stacked style="color:#ebedef;margin-left:10px;"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</ion-label>
+      <ion-input [(ngModel)]="email" name="email" type="text" style="border:1px solid #ebedef; border-radius:15px; color:#ebedef;"></ion-input>
+  
+      <ion-label stacked style="color:#ebedef;margin-left:10px;"><i class="fa fa-key" aria-hidden="true"></i> Password</ion-label>
+      <ion-input [(ngModel)]="password" name="password" type="password" style="border:1px solid #ebedef; border-radius:15px; color:#ebedef;"></ion-input>
+  </ion-list>
+
+  <ion-buttons class="lsbuttons" text-center >
+    <button ion-button outline style="border:1px solid #ebedef;" (click)="loginUser()"><i class="fa fa-sign-in" style="color:#851d29" aria-hidden="true"></i> <span style="color:#ebedef">Login</span></button>
+    <button ion-button outline style="border:1px solid #ebedef;" (click)="signUpUser()"><i class="fa fa-user-plus" style="color:#851d29" aria-hidden="true"></i> <span style="color:#ebedef">Sign Up</span></button>
+  </ion-buttons>
+  <div class="fpbutton">
+    <button ion-button outline block (click)="googleSignIn()">
+      <span class="fa-stack fa-2x">
+        <!--<i class="fa fa-square fa-stack-2x"></i> -->
+        <i class="fa fa-google-plus fa-stack-1x fa-inverse" color="othercolor"></i>
+      </span>
+      <span style="color:#ebedef">Sign in with Google!</span>
+    </button>
+    <button ion-button outline block (click)="resetPassword()"><span style="color:#ebedef">Forgot Password</span></button>
+  </div>
+
+</ion-content>

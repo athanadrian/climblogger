@@ -1,0 +1,33 @@
+
+page-login{
+
+    .toolbar-ios ion-title {
+        padding: 0 10px 1px;
+    }
+    .toolbar-title-ios {
+        text-align: start;
+    }
+
+    .fpbutton{
+        margin-top:50px;
+    }
+
+    .lsbuttons ion-icon{
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    .epInputs{
+        border:1px solid white;
+    }
+
+    .loginImg{
+        margin: auto;
+            margin-top:10px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+    }
+
+}
+

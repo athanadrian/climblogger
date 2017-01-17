@@ -1,0 +1,30 @@
+page-user-details {
+
+    /*.toolbar-ios ion-title {
+        padding: 0 10px 1px;
+    }*/
+
+    .toolbar-title-ios {
+        text-align: center;
+    }
+
+    .fa {
+        padding-right: 3px;
+    }
+
+    .toolbar-ios[no-border] .toolbar-background {
+    background: #fff;
+    }
+
+    ion-card img {
+            margin: auto;
+            margin-top:10px;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+    }
+
+}
+
+
+
